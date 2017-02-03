@@ -1,5 +1,12 @@
 Comparing Data - Univariate/Bivariate/Multi-variate, Scatterplots, Outliers, Correlation
 Correlation: two highly linked numeric variables. +1/-1 (perfect +ve/-ve correlation). 0 (no correlation). 
              linear plot only. 
+             [The correlation calculation works only for relationship that follow a straight line]
+             [Correlation is not a causation]
+             Perfect/High/Low/No + +ve/-ve + Correlation
+             For +ve correlation: slope is positive and vice-versa
              Do a scatter plot and interpret the trend. Correlation does not account for trends.
-
+             Calculation: 
+             Pearson's Correlation Coefficient = 
+                {n.sum(xy)-sum(x)sum(y)}/[{n.sum(x^2)-(sum(x))^2}^0.5X{n.sum(y^2)-(sum(y)^2)}^0.5]
+QuickRef: https://www.mathsisfun.com/data/correlation.html

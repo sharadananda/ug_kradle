@@ -1,0 +1,24 @@
+ML Algorithm application areas: 
+  anti-spam
+  image recognition
+  clustering
+  building recommender systems
+Week 1:
+Unsupervised Learning - Clustering: No training dataset given.   
+can you automatically find structure in the data from that you automatically cluster the individuals into these types that I don't know in advance? 
+Example: clustering of similar news items in news.google.com, where same news items are grouped together.
+  Given a set of news articles found on the web, group them into sets of articles about the same stories.
+  Given a database of customer data, automatically discover market segments and group customers into different market segments.
+  
+Application areas:
+  Organise Computer clustering: which machines work together and put these machines together
+  Market Segmentation: using customer dataset
+  Social network analysis: find out cohesive group of friends
+  Astronomical data analysis
+  Google news groups cohesive news stories together
+  Genomics
+Software: wiki.octave.org
+- 
+Cocktail Party Problem Algorithm:
+[W,s,v] = svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x');
+
